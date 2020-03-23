@@ -15,6 +15,10 @@
 		A9E5EB162429302300A23B53 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9E5EB142429302300A23B53 /* LaunchScreen.storyboard */; };
 		A9E5EB212429302300A23B53 /* SwoleAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E5EB202429302300A23B53 /* SwoleAppTests.swift */; };
 		A9E5EB2C2429302300A23B53 /* SwoleAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E5EB2B2429302300A23B53 /* SwoleAppUITests.swift */; };
+		A9E5EB3E2429417000A23B53 /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E5EB3D2429417000A23B53 /* Exercise.swift */; };
+		A9E5EB412429433000A23B53 /* Workout.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E5EB402429433000A23B53 /* Workout.swift */; };
+		A9E5EB442429450F00A23B53 /* ExerciseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E5EB432429450F00A23B53 /* ExerciseView.swift */; };
+		A9E5EB46242946CB00A23B53 /* WorkoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E5EB45242946CB00A23B53 /* WorkoutView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		A9E5EB272429302300A23B53 /* SwoleAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwoleAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9E5EB2B2429302300A23B53 /* SwoleAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwoleAppUITests.swift; sourceTree = "<group>"; };
 		A9E5EB2D2429302300A23B53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9E5EB3D2429417000A23B53 /* Exercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise.swift; sourceTree = "<group>"; };
+		A9E5EB402429433000A23B53 /* Workout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workout.swift; sourceTree = "<group>"; };
+		A9E5EB432429450F00A23B53 /* ExerciseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseView.swift; sourceTree = "<group>"; };
+		A9E5EB45242946CB00A23B53 /* WorkoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +107,9 @@
 		A9E5EB082429302200A23B53 /* SwoleApp */ = {
 			isa = PBXGroup;
 			children = (
+				A9E5EB422429442200A23B53 /* Views */,
+				A9E5EB3F2429430000A23B53 /* Models */,
+				A9E5EB3A2429393700A23B53 /* Resources */,
 				A9E5EB092429302200A23B53 /* AppDelegate.swift */,
 				A9E5EB0B2429302200A23B53 /* SceneDelegate.swift */,
 				A9E5EB0D2429302200A23B53 /* ContentView.swift */,
@@ -134,6 +145,31 @@
 				A9E5EB2D2429302300A23B53 /* Info.plist */,
 			);
 			path = SwoleAppUITests;
+			sourceTree = "<group>";
+		};
+		A9E5EB3A2429393700A23B53 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A9E5EB3F2429430000A23B53 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A9E5EB3D2429417000A23B53 /* Exercise.swift */,
+				A9E5EB402429433000A23B53 /* Workout.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A9E5EB422429442200A23B53 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A9E5EB432429450F00A23B53 /* ExerciseView.swift */,
+				A9E5EB45242946CB00A23B53 /* WorkoutView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,8 +303,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9E5EB46242946CB00A23B53 /* WorkoutView.swift in Sources */,
+				A9E5EB442429450F00A23B53 /* ExerciseView.swift in Sources */,
 				A9E5EB0A2429302200A23B53 /* AppDelegate.swift in Sources */,
+				A9E5EB3E2429417000A23B53 /* Exercise.swift in Sources */,
 				A9E5EB0C2429302200A23B53 /* SceneDelegate.swift in Sources */,
+				A9E5EB412429433000A23B53 /* Workout.swift in Sources */,
 				A9E5EB0E2429302200A23B53 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

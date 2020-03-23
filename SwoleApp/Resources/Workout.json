@@ -1,0 +1,32 @@
+[
+  {
+    "wid": 1,
+    "name": "Chest Day",
+    "numCycles": 1,
+    "isCustom": false,
+    "exerciseList": [{
+        "eid": 1,
+        "name": "Bench Press",
+        "sets": 5,
+        "repsOrTime": 10,
+        "bodyPart": "Pecs, Delts, Triceps",
+        "description": "Push bar up and down",
+        "isTimed": false,
+        "equipment": "Bench Press",
+        "demo": "BenchPress"
+      }, {
+        "eid": 2,
+        "name": "Dumbell Press",
+        "sets": 4,
+        "repsOrTime": 10,
+        "bodyPart": "Pecs, Delts, Triceps",
+        "description": "Push dumbells up and down",
+        "isTimed": false,
+        "equipment": "Dumbells",
+        "demo": "DumbellPress"
+      }
+    ],
+    "bodyParts": "Pecs, Delts, Triceps",
+    "duration": 90
+  }
+]

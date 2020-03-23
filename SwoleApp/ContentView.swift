@@ -10,7 +10,22 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello World")
+        VStack {
+            
+            VStack(alignment: .leading){
+        
+                Text("Incline Bench Press")
+                    .font(.title)
+                HStack(alignment: .top) {
+                    Text("Bench Press")
+                        .font(.subheadline)
+                    Spacer()
+                    Text("Squat")
+                        .font(.subheadline)
+                }
+            }
+        .padding()
+        }
     }
 }
 
