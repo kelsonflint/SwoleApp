@@ -13,7 +13,7 @@ struct Exercise: Hashable, Codable {
     var eid: Int
     var name: String
     var sets: Int
-    var repsOrSize: Int
+    var repsOrTime: Int
     var bodyPart: String
     var description: String
     var isTimed: Bool
